@@ -22,6 +22,10 @@ header nav .navbar-brand img {
   width: 6em;
 }
 
+header nav .container i {
+  color: var(--merah);
+}
+
 header nav .navbar-brand h1 {
   font-family: "Kaushan Script", serif;
   font-size: 2.8em;
@@ -89,5 +93,8 @@ header nav #navbarOffcanvasLg ul a i {
 
   #navbarOffcanvasLg ul li {
     margin: 1em 0;
+  }
+  #navbarOffcanvasLg ul a i {
+    display: none;
   }
 }
