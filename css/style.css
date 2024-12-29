@@ -18,6 +18,9 @@ body {
   background: var(--body);
 }
 
+
+/* style navbar */
+
 header nav .navbar-brand img {
   width: 6em;
 }
@@ -67,7 +70,67 @@ header nav #navbarOffcanvasLg ul a i {
   margin-left: 7em;
 }
 
+/* style main */
+main {
+  margin-top: 4em;
+}
 
+main .page1 .pembuka {
+  font-family: "Merienda", serif;
+  font-size: 3.8em;
+  font-weight: bold;
+}
+
+main .page1 .pembuka span {
+  font-family: "Merienda", serif;
+  color: var(--oren);
+}
+
+main .page1 p {
+  font-size: 1.2em;
+  letter-spacing: .6px;
+}
+
+/* style tombol */ 
+.tombol {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.2em 1.5em 0.2em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(242, 41, 30, 1) 0%,
+    rgba(253, 126, 51, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em var(--oren);
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  width: 41%;
+}
+
+.tombol:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em var(--oren);
+}
+
+.tombol:active {
+  box-shadow: 0 0.3em 1em -0.5em var(--oren);
+}
+
+main .page1 #carouselExampleSlidesOnly {
+  margin-top: -10em;
+  width: 90%;
+}
+
+/* main .page1 #carouselExampleSlidesOnly .carousel-item img {
+  width: ;
+} */
 
 
 
