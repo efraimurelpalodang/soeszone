@@ -27,6 +27,7 @@ header nav .navbar-brand img {
 
 header nav .container i {
   color: var(--merah);
+  font-size: 2.5em;
 }
 
 header nav .navbar-brand h1 {
@@ -138,7 +139,7 @@ main .page1 #carouselExampleSlidesOnly {
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   header nav .navbar-brand {
     font-size: 100%;
   }
@@ -159,7 +160,7 @@ main .page1 #carouselExampleSlidesOnly {
   }
 
   main {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 75%;
   }
 
@@ -175,5 +176,19 @@ main .page1 #carouselExampleSlidesOnly {
   main .page1 #carouselExampleSlidesOnly {
     margin-top: 3%;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header nav .navbar-brand {
+    font-size: 95%;
+  }
+
+  header nav .container i {
+    font-size: 2.2em;
+  }
+  
+  main .page1 .tombol {
+    width: 65%;
   }
 }
