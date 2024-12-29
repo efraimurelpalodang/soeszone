@@ -124,13 +124,10 @@ main .page1 p {
 }
 
 main .page1 #carouselExampleSlidesOnly {
-  margin-top: -10em;
-  width: 90%;
+  margin-top: -7em;
+  width: 85%;
 }
 
-/* main .page1 #carouselExampleSlidesOnly .carousel-item img {
-  width: ;
-} */
 
 
 
