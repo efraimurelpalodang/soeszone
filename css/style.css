@@ -170,3 +170,30 @@ main .page2 .card .tbl {
   width: 35%;
   padding-left: 1.5em;
 }
+
+.logo-slider-wrapper {
+  width: 100%;
+  overflow: hidden; 
+  position: relative; 
+}
+
+.logo-slider {
+  display: flex;
+  animation: slide 15s linear infinite; 
+}
+
+.logo-slider img {
+  margin-right: 50px; 
+  width: 100px; 
+  object-fit: contain;
+}
+
+/* Animasi untuk pergerakan logo */
+@keyframes slide {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-150%); 
+  }
+}

@@ -40,6 +40,20 @@
   main .page2 .card .tbl {
     width: 50%;
   }
+  .logo-slider img {
+    width: 25vw;
+  }
+  .logo-slider {
+    animation: slide 10s linear infinite; 
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-450%); 
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {
