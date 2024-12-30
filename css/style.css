@@ -133,10 +133,6 @@ main .page1 #carouselExampleSlidesOnly {
 
 /* style page 2 */
 
-main::before {
-  content: '';
-}
-
 main .page2 {
   margin-top: 4em;
 }
@@ -163,7 +159,8 @@ main .page2 .carousel-inner h2 {
 main .page2 .card {
   margin-top: -5em;
 }
-main .page2 .card .tbl {
+main .page2 .card .tbl,
+#produk .card .tbl {
   text-decoration: none;
   color: #333;
   border: 1px solid #333;
@@ -196,4 +193,16 @@ main .page2 .card .tbl {
   100% {
     transform: translateX(-150%); 
   }
+}
+
+/* Produk style */
+#produk .iklan {
+  max-height: 150px;
+}
+#produk #carouselExampleIndicators .carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+}
+#produk .card .tbl {
+  width: 45%;
 }
