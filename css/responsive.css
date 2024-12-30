@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 768px) {
+  header nav .navbar-brand {
+    font-size: 100%;
+  }
+
+  #navbarOffcanvasLg {
+    width: 60%;
+  }
+
+  #navbarOffcanvasLg ul {
+    margin: 2em 0;
+  }
+
+  #navbarOffcanvasLg ul li {
+    margin: 1em 0;
+  }
+  #navbarOffcanvasLg ul a i {
+    display: none;
+  }
+
+  main {
+    margin-top: 1em;
+    font-size: 75%;
+  }
+
+  main .page1 .tombol {
+    width: 60%;
+  }
+  main .page1 .pembuka {
+    margin-bottom: .4em;
+  }
+  main .page1 p {
+    margin-bottom: 2em;
+  }
+  main .page1 #carouselExampleSlidesOnly {
+    margin-top: 3%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header nav .navbar-brand {
+    font-size: 95%;
+  }
+
+  header nav .container i {
+    font-size: 2.2em;
+  }
+  
+  main .page1 .tombol {
+    width: 65%;
+  }
+}
