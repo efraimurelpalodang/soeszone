@@ -160,7 +160,8 @@ main .page2 .card {
   margin-top: -5em;
 }
 main .page2 .card .tbl,
-#produk .card .tbl {
+#produk .card .tbl,
+#produk .card-group .card-body a {
   text-decoration: none;
   color: #333;
   border: 1px solid #333;
@@ -205,6 +206,12 @@ main .page2 .card .tbl,
 }
 #produk .card .tbl {
   width: 45%;
+}
+#produk .card-group .card-body a {
+  background-color: #5aa739;
+  color: #fff;
+  width: 62%;
+  border: none;
 }
 #produk #bestseller {
   background: linear-gradient(to left, #2c3e50, #4ca1af);
