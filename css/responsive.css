@@ -54,6 +54,9 @@
       transform: translateX(-450%); 
     }
   }
+  #produk .card .tbl {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 375px) {
